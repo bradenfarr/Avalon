@@ -182,30 +182,42 @@ body {
   font-size: 90px;
   font-family: "Monaco", monospace;
 }
+
 /* Pricing button styles */
-#button1 {
+.button {
   width: 100px;
   height: 30px;
   margin-left: 15px;
 }
 
-#button1:active {
+.button:active {
   background-color: green;
 }
 
-#button1:disabled {
+.button:disabled {
   pointer-events: none;
 }
 
-#button1r {
+.buttonr {
   width: 100px;
   height: 30px;
 }
 
-#button1r:active {
+.buttonr:active {
   background-color: red;
 }
 
-#button1r:disabled {
+.buttonr:disabled {
   pointer-events: none;
+}
+
+.totalbutton {
+  display: flex;
+  align-items: center;
+  margin-top: 500px;
+}
+
+#totalBtn {
+  font-size: 90px;
+  font-family: "Monaco", monospace;
 }
