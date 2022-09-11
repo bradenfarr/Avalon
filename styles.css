@@ -31,8 +31,8 @@
   font-family: "Lucidia Console", monospace;
   font-size: 30px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 5px;
 }
 
 .primary-navigation a {
@@ -41,11 +41,8 @@
 }
 
 .primary-navigation a:hover {
-  background-color: gray;
+  color: gray;
   text-decoration: none;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border-style: solid;
-  border-width: 1px;
 }
 
 .primary-navigation a:visited {
@@ -188,6 +185,8 @@ body {
   width: 100px;
   height: 30px;
   margin-left: 15px;
+  border-width: 0px;
+  border-radius: 4px;
 }
 
 .button:active {
@@ -198,9 +197,15 @@ body {
   pointer-events: none;
 }
 
+.button:hover {
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+}
 .buttonr {
   width: 100px;
   height: 30px;
+  border-radius: 4px;
+  border-width: 0px;
+  box-shadow: #56575a;
 }
 
 .buttonr:active {
@@ -211,13 +216,57 @@ body {
   pointer-events: none;
 }
 
-.totalbutton {
-  display: flex;
-  align-items: center;
-  margin-top: 500px;
+.buttonr:hover {
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
 }
 
 #totalBtn {
   font-size: 90px;
   font-family: "Monaco", monospace;
+}
+
+#totalBtn {
+  margin-top: 500px;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+#totalBtn:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+#totalBtn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#totalBtn:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
 }

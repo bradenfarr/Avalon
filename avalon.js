@@ -7,8 +7,6 @@ let btn3r = document.getElementById("button3r");
 let totalCost = document.querySelector('.total');
 let cost = 43000
 
-import react from 'react';
-
 // Button parameters
 
 btn1r.disabled = true;
