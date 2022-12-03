@@ -1,5 +1,4 @@
 # Avalon
-This website is a completely original website made by me, it is very rough around the edges, I have been using it to practice my HTML, Javascript, and CSS
-and will continue to work on it as I learn and practice new skills with these languages.
+This website is a website to practice my frontend skills, as I learn more skills I practice them on this website.
 
 Link: https://bradenfarr.github.io/Avalon/
