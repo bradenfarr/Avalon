@@ -1,4 +1,4 @@
 # Avalon
-This website is a website to practice my frontend skills, as I learn more skills I practice them on this website.
+This is a website to practice my frontend skills, as I learn more skills I practice them on this website.
 
 Link: https://bradenfarr.github.io/Avalon/
