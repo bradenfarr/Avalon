@@ -175,6 +175,12 @@ body {
   align-items: center;
 }
 
+.addonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .total {
   font-size: 90px;
   font-family: "Monaco", monospace;
