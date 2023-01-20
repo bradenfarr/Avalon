@@ -52,6 +52,7 @@
 /* Body styles */
 
 body {
+    background-image: url('../Resources/grayBackground.png');
     background-color: gray;
     padding:10px;
     padding-bottom:60px;
@@ -147,11 +148,6 @@ body {
     text-decoration: none;
     font-size: 24px;
     
-}
-
-.backgroundContainer {
-  background-color: #56575a;
-  box-shadow: inset 0px 0px 40px 40px gray;
 }
 
 /* Pricing page styles */
