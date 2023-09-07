@@ -17,8 +17,9 @@ function getCookie(cname) {
   }
 
 function cookieValue() {
-    let amount = getCookie('cookie')
-    document.getElementById('amount').textContent = "$" + amount;
+    let amount = getCookie('cookie');
+    let formattedamount = Number(amount).toLocaleString("en-US")
+    document.getElementById('amount').textContent = "$" + formattedamount;
 }
 
 //Call cookie when page is loaded.
